@@ -32,16 +32,16 @@ Yet manual outlining is slow, subjective, and unscalable. Deep‑learning‑base
 
 We adopted **YOLOv9‑Seg** (small variant) for its balance of accuracy and speed, especially on edge GPUs.
 
-| Parameter        | Value                            | Notes                                 |
-| ---------------- | -------------------------------- | ------------------------------------- |
-| Model key / name | `yolov8s_seg` (11.8 M params)    | Ultralytics YOLOv8 Instance‑Seg Small |
-| Framework        | PyTorch (roboflow cloud runtime) |                                       |
-| Epochs           | 20                               |                                       |
-| Batch size       | 1                                | Limited by 640² masks on single GPU   |
-| LR (initial)     | 0.001                            | Fixed LR, cosine LR *off*             |
-| Optimizer        | Auto (SGD + momentum 0.95)       |                                       |
-| Weight decay     | 0.0005                           |                                       |
-| Primary metric   | **Precision**                    | Early stopping & best‑model selection |
+| Parameter        | Value                            |
+| ---------------- | -------------------------------- | 
+| Model key        | `yolov9c_seg` (27.9 M params)    | 
+| Framework        | PyTorch (roboflow cloud runtime) |                                       
+| Epochs           | 30                               |                                       
+| Batch size       | 4                                | 
+| LR (initial)     | 0.001                            | 
+| Optimizer        | Auto (SGD + momentum 0.95)       |                                       
+| Weight decay     | 0.0005                           |
+| Primary metric   | **Precision**                    |
 
 ---
 
@@ -49,13 +49,13 @@ We adopted **YOLOv9‑Seg** (small variant) for its balance of accuracy and spee
 
 > *Fill in the table below with your final Roboflow metrics once training is complete.*
 
-| Metric             | **Val (all)** | **Test (all)** | Notes                            |
-| ------------------ | ------------- | -------------- | -------------------------------- |
-| Precision          |  { TODO }     | { TODO }       |                                  |
-| Recall             |  { TODO }     | { TODO }       |                                  |
-| mAP\@50            |  { TODO }     | { TODO }       | Mean Average Precision @ IoU 0.5 |
-| mAP\@50‑95         |  { TODO }     | { TODO }       |                                  |
-| Fitness (Roboflow) |  { TODO }     | { TODO }       |                                  |
+| Metric             | **Val (all)** | **Test (all)** | 
+| ------------------ | ------------- | -------------- | 
+| Precision          |  0.63         | 0.66           |                            
+| Recall             |  0.42         |                                       
+| mAP\@50            |  0.48         |       
+| mAP\@50‑95         |  0.20         |                                 
+| Fitness (Roboflow) |  { TODO }     |                                   
 
 *Per‑class breakdown (Culture / Background) can be inserted as a second table if needed.*
 
@@ -64,9 +64,7 @@ We adopted **YOLOv9‑Seg** (small variant) for its balance of accuracy and spee
 ## 5 · Qualitative Results
 
 Below are raw inference frames showing YOLOv9‑Seg masks overlaid on the phase‑contrast images.
-
-![Sample prediction](Images/Prediction_results.png)
-![Sample prediction](Images/Prediction_results1.png)
+<img src="Images/Prediction_results1.png" width="100%" height="350">
 <img src="Images/Prediction_results.png" width="100%" height="450">
 
 ---
