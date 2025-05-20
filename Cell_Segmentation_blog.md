@@ -54,8 +54,7 @@ We adopted **YOLOv9‑Seg** (small variant) for its balance of accuracy and spee
 | Precision          |  0.63         | 0.66           |                            
 | Recall             |  0.42         |                                       
 | mAP\@50            |  0.48         |       
-| mAP\@50‑95         |  0.20         |                                 
-| Fitness (Roboflow) |  { TODO }     |                                   
+| mAP\@50‑95         |  0.20         |                                                                 
 
 *Per‑class breakdown (Culture / Background) can be inserted as a second table if needed.*
 
