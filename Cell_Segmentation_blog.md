@@ -66,8 +66,8 @@ We adopted **YOLOv9‑Seg** (small variant) for its balance of accuracy and spee
 
 Below are raw inference frames showing YOLOv9‑Seg masks overlaid on the phase‑contrast images.
 
-Add more examples by dropping PNGs into the `assets/` folder and referencing them here.
 ![Sample prediction](Images/Prediction_results.png)
+![Sample prediction](Images/Prediction_results1.png)
 
 ---
 
