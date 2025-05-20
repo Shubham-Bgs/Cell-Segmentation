@@ -25,7 +25,6 @@ Yet manual outlining is slow, subjective, and unscalable. Deep‑learning‑base
 | Split             | 974 train / 250 val / 125 test                                                                                               |
 | Image resolution  | 640 × 640 px                                                                                                                 |
 | Annotation format | COCO instance masks                                                                                                          |
-| Modality (📸)     | *{TODO: bright‑field / phase‑contrast / fluorescence?}*                                                                      |
 
 ---
 
