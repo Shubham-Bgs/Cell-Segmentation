@@ -115,4 +115,4 @@ Deep‑learning‑powered cell segmentation is **no longer a research luxury**�
 * Training code → [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
 * YOLOv9‑Seg paper → [https://arxiv.org/abs/2023.07.04.12345](https://arxiv.org/abs/2023.07.04.12345) *(placeholder)*
 
-*Last updated: {TODO date}*
+*Last updated: 20th May 2025*
