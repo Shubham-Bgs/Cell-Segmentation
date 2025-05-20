@@ -68,7 +68,7 @@ Below are raw inference frames showing YOLOv9â€‘Seg masks overlaid on the phaseâ
 
 ![Sample prediction](Images/Prediction_results.png)
 ![Sample prediction](Images/Prediction_results1.png)
-<img src="Images/Prediction_results.png" width="400" height="250">
+<img src="Images/Prediction_results.png" width="100%" style="height:auto;">
 
 ---
 
