@@ -1,25 +1,15 @@
 ---
-
 date: 2025-05-23
 title: "Pneumothorax Detection in Chest X-rays: Accelerating Critical Care with Computer Vision"
 description: "Discover how deep-learning models like MobileNetV2 and EfficientNet-B7 enable rapid, accurate pneumothorax detection from chest X-ray images, shortening the time to life-saving intervention."
-keywords: "pneumothorax detection, chest X-ray AI, medical imaging, computer vision, MobileNetV2, EfficientNet-B7, DenseNet, ResNet, healthcare AI, classification model, SIIM-ACR Pneumothorax, deep learning radiology, medical diagnostics, Matrice platform, edge inference, hospital automation, telemedicine"
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-<meta title="Pneumothorax Detection in Chest X-rays: Accelerating Critical Care with Computer Vision"
-   description="Discover how deep-learning models like MobileNetV2 and EfficientNet-B7 enable rapid, accurate pneumothorax detection from chest X-ray images, shortening the time to life-saving intervention."> <meta name="keywords" content="pneumothorax detection, chest X-ray AI, medical imaging, computer vision, MobileNetV2, EfficientNet-B7, DenseNet, ResNet, healthcare AI, classification model, SIIM-ACR Pneumothorax, deep learning radiology, medical diagnostics, Matrice platform, edge inference, hospital automation, telemedicine">
-title="Pneumothorax Detection in Chest X-rays: Accelerating Critical Care with Computer Vision"
-description="Discover how deep-learning models like MobileNetV2 and EfficientNet-B7 enable rapid, accurate pneumothorax detection from chest X-ray images, shortening the time to life-saving intervention."> <meta name="keywords" content="pneumothorax detection, chest X-ray AI, medical imaging, computer vision, MobileNetV2, EfficientNet-B7, DenseNet, ResNet, healthcare AI, classification model, SIIM-ACR Pneumothorax, deep learning radiology, medical diagnostics, Matrice platform, edge inference, hospital automation, telemedicine">
-
-# Pneumothorax Detection in Chest X-rays: Enabling Prompt Medical Intervention with AI
-
-![PneumothoraxDetection](images/PneumothoraxDetection.png)
-
-Pneumothorax—air trapped between the lung and chest wall—is a life-threatening condition that demands **immediate diagnosis**. Radiologists routinely rely on chest X-rays for confirmation, but subtle cases can be hard to spot under workload pressure. Leveraging **deep-learning-powered classification**, we can flag suspect scans within seconds, ensuring critical cases reach clinicians faster.
-
-This article walks through our end-to-end pipeline—dataset preparation, model training, evaluation, and deployment—built entirely on the Matrice no-code computer-vision platform.
-
+keywords: [
+  "pneumothorax detection", "chest X-ray AI", "medical imaging", "computer vision",
+  "MobileNetV2", "EfficientNet-B7", "DenseNet", "ResNet", "healthcare AI",
+  "classification model", "SIIM-ACR Pneumothorax", "deep learning radiology",
+  "medical diagnostics", "Matrice platform", "edge inference", "hospital automation", "telemedicine"
+]
 ---
+
 
 ## 1. Why Pneumothorax Detection Matters
 
