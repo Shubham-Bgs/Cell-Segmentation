@@ -1,4 +1,4 @@
-# Cell Segmentation in Microscopy Images : Accelerating Biomedical Insights with YOLOv9‑Seg
+# Cell Segmentation in Microscopy Images : Accelerating Biomedical Insights with Computer Vision
 
 > *"From painstaking manual annotation to real‑time, pixel‑perfect masks—AI is reshaping the microscope."*
 
