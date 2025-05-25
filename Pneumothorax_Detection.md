@@ -56,7 +56,6 @@ This article walks through our end-to-end pipeline—dataset preparation, model 
 | **Split**   | 3 862 train / 1 105 val / 552 test                                                                              |
 | **Classes** | 2 (Pneumothorax, Normal)                                                                                        |
 | **Format**  | PNG / JPG (single-channel greyscale)                                                                            |
-| **Source**  | Derived from [SIIM‑ACR Pneumothorax Segmentation](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation). |
 
 Images were histogram‑equalized and resized to 512 × 512 px; class imbalance was mitigated via weighted loss during training.
 
