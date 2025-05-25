@@ -76,10 +76,9 @@ We benchmarked five architectures and converged on **MobileNetV2** for its accur
 
 | Model           | Params (M) | Test Precision | Test Recall | Notes                  |
 | --------------- | ---------- | -------------- | ----------- | ---------------------- |
-| **MobileNetV2** | 3.5        | **0.79**       | 0.74        | Selected ✓             |
-| EfficientNet‑B7 | 66         | 0.77           | **0.80**    | Acc 92 % |
-| DenseNet‑121    | 8          | 0.59           | 0.65        |                        |
-| ResNet‑50       | 23.9       | 0.55           | 0.51        |                        |
+| **MobileNetV2** | 3.5        | **0.79**       | 0.79        | Selected ✓             |
+| DenseNet‑121    | 8          | 0.59           | 0.64        |                        |
+| ResNet‑50       | 23.9       | 0.50           | 0.51        |                        |
 
 MobileNetV2 offers high precision with only 3.5 M parameters, making it ideal for edge deployment.
 
