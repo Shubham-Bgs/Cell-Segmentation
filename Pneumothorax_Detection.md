@@ -1,15 +1,16 @@
 ---
-date: 2025-05-23
-title: "Pneumothorax Detection in Chest X-rays: Accelerating Critical Care with Computer Vision"
-description: "Discover how deep-learning models like MobileNetV2 and EfficientNet-B7 enable rapid, accurate pneumothorax detection from chest X-ray images, shortening the time to life-saving intervention."
-keywords: [
-  "pneumothorax detection", "chest X-ray AI", "medical imaging", "computer vision",
-  "MobileNetV2", "EfficientNet-B7", "DenseNet", "ResNet", "healthcare AI",
-  "classification model", "SIIM-ACR Pneumothorax", "deep learning radiology",
-  "medical diagnostics", "Matrice platform", "edge inference", "hospital automation", "telemedicine"
-]
----
 
+## date: 2025-05-23 title: "Pneumothorax Detection in Chest X-rays: Accelerating Critical Care with Computer Vision" description: "Discover how deep-learning models like MobileNetV2 and EfficientNet-B7 enable rapid, accurate pneumothorax detection from chest X-ray images, shortening the time to life-saving intervention." keywords: "pneumothorax detection, chest X-ray AI, medical imaging, computer vision, MobileNetV2, EfficientNet-B7, DenseNet, ResNet, healthcare AI, classification model, SIIM-ACR Pneumothorax, deep learning radiology, medical diagnostics, Matrice platform, edge inference, hospital automation, telemedicine"
+
+&#x20; title="Pneumothorax Detection in Chest X-rays: Accelerating Critical Care with Computer Vision" description="Discover how deep-learning models like MobileNetV2 and EfficientNet-B7 enable rapid, accurate pneumothorax detection from chest X-ray images, shortening the time to life-saving intervention.">&#x20;
+
+# Pneumothorax Detection in Chest X-rays: Enabling Prompt Medical Intervention with AI
+
+Pneumothorax—air trapped between the lung and chest wall—is a life-threatening condition that demands **immediate diagnosis**. Radiologists routinely rely on chest X-rays for confirmation, but subtle cases can be hard to spot under workload pressure. Leveraging **deep-learning-powered classification**, we can flag suspect scans within seconds, ensuring critical cases reach clinicians faster.
+
+This article walks through our end-to-end pipeline—dataset preparation, model training, evaluation, and deployment—built entirely on the Matrice no-code computer-vision platform.
+
+---
 
 ## 1. Why Pneumothorax Detection Matters
 
@@ -79,8 +80,6 @@ We benchmarked five architectures and converged on **MobileNetV2** for its accur
 
 MobileNetV2 offers high precision with only 3.5 M parameters, making it ideal for edge deployment.
 
-![TrainingCurve](images/PneumoTrainCurve.png)
-
 ---
 
 ## 5. Inference Optimization
@@ -118,20 +117,3 @@ On an NVIDIA RTX A4500, inference clocks **94 images/s** (≈ 11 ms per 
 ## Conclusion
 
 AI‑assisted pneumothorax detection pairs **clinical urgency** with **computational efficiency**. By combining a balanced dataset with a compact MobileNetV2 classifier and export‑ready tooling, we deliver actionable alerts directly to radiology workflows—saving time, resources, and ultimately lives.
-
-<!-- Footer CTA -->
-
-<div class="py-lg-16 py-10 rounded py-2"  style="background-image: linear-gradient(15deg, #2b5876 0%, #4e4376 100%);">
-  <div class="container p-2">
-    <div class="row justify-content-center text-center">
-      <div class="col-md-9 col-12">
-        <h2 class="my-0" style="color: #fff; font-size: 32px; font-weight: 600;">Think CV, Think Matrice</h2>
-        <p class="px-lg-8 py-2 my-0" style="color: #fff; font-size: 18px;">Deploy life‑saving models 40 % faster while cutting development costs by 80 %</p>
-        <div class="d-grid d-md-block">
-          <a href="https://matrice.ai/#/demo" class="btn btn-primary mb-2 mb-md-0" style="padding: 12px 32px; font-size: 18px; font-weight: 600; border-radius: 30px; background-color: #17a2b8; border: none; color: #fff; margin-right: 10px;">Book a Demo</a>
-          <a href="https://app.matrice.ai/sign-up" class="btn" style="padding: 12px 32px; font-size: 18px; font-weight: 600; border-radius: 30px; border: 2px solid #fff; color: #fff;">Sign Up</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
