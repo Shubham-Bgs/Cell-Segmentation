@@ -54,10 +54,8 @@ This article walks through our end-to-end pipeline—dataset preparation, model 
 | **Version** | v1.0                                                                                                            |
 | **Images**  | 5 519 total                                                                                                     |
 | **Split**   | 3 862 train / 1 105 val / 552 test                                                                              |
-| **Classes** | 2 (Pneumothorax, Normal)                                                                                        |
+| **Classes** | 2 (Cardiomegaly, Normal)                                                                                        |
 | **Format**  | PNG / JPG (single-channel greyscale)                                                                            |
-
-Images were histogram‑equalized and resized to 512 × 512 px; class imbalance was mitigated via weighted loss during training.
 
 ### Model Training
 
@@ -76,13 +74,12 @@ We benchmarked five architectures and converged on **MobileNetV2** for its accur
 
 ## 4. Model Evaluation
 
-| Model           | Params (M) | Test Precision | Test Recall | AUC      | Notes                  |
-| --------------- | ---------- | -------------- | ----------- | -------- | ---------------------- |
-| **MobileNetV2** | 3.5        | **0.79**       | 0.74        | 0.96     | Selected ✓             |
-| EfficientNet‑B7 | 66         | 0.77           | **0.80**    | **0.97** | Highest AUC / Acc 92 % |
-| DenseNet‑121    | 8          | 0.59           | 0.65        | 0.93     |                        |
-| ResNet‑50       | 23.9       | 0.51           | 0.68        | 0.91     |                        |
-| VGG‑16          | 134        | 0.48           | 0.60        | 0.88     | slower, over‑fits      |
+| Model           | Params (M) | Test Precision | Test Recall | Notes                  |
+| --------------- | ---------- | -------------- | ----------- | ---------------------- |
+| **MobileNetV2** | 3.5        | **0.79**       | 0.74        | Selected ✓             |
+| EfficientNet‑B7 | 66         | 0.77           | **0.80**    | Acc 92 % |
+| DenseNet‑121    | 8          | 0.59           | 0.65        |                        |
+| ResNet‑50       | 23.9       | 0.55           | 0.51        |                        |
 
 MobileNetV2 offers high precision with only 3.5 M parameters, making it ideal for edge deployment.
 
