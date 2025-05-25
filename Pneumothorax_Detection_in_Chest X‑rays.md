@@ -1,6 +1,13 @@
 ---
 
-## date: 2025-05-23
+date: "2025-05-23"
+title: "Pneumothorax Detection in Chest X‑rays: Accelerating Critical Care with Computer Vision"
+description: "Discover how deep‑learning models like MobileNetV2 and EfficientNet‑B7 enable rapid, accurate pneumothorax detection from chest X‑ray images, shortening the time to life‑saving intervention."
+keywords: "pneumothorax detection, chest X‑ray AI, medical imaging, computer vision, MobileNetV2, EfficientNet‑B7, DenseNet, ResNet, healthcare AI, classification model, SIIM‑ACR Pneumothorax, deep learning radiology, medical diagnostics, Matrice platform, edge inference, hospital automation, telemedicine"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<meta title="Pneumothorax Detection in Chest X‑rays: Accelerating Critical Care with Computer Vision"
+   description="Discover how deep‑learning models like MobileNetV2 and EfficientNet‑B7 enable rapid, accurate pneumothorax detection from chest X‑ray images, shortening the time to life‑saving intervention."> <meta name="keywords" content="pneumothorax detection, chest X‑ray AI, medical imaging, computer vision, MobileNetV2, EfficientNet‑B7, DenseNet, ResNet, healthcare AI, classification model, SIIM‑ACR Pneumothorax, deep learning radiology, medical diagnostics, Matrice platform, edge inference, hospital automation, telemedicine">
 
 <meta title="Pneumothorax Detection in Chest X‑rays: Accelerating Critical Care with Computer Vision"
    description="Discover how deep‑learning models like MobileNetV2 and EfficientNet‑B7 enable rapid, accurate pneumothorax detection from chest X‑ray images, shortening the time to life‑saving intervention."> <meta name="keywords" content="pneumothorax detection, chest X‑ray AI, medical imaging, computer vision, MobileNetV2, EfficientNet‑B7, DenseNet, ResNet, healthcare AI, classification model, SIIM‑ACR Pneumothorax, deep learning radiology, medical diagnostics, Matrice platform, edge inference, hospital automation, telemedicine">
