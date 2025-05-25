@@ -52,8 +52,8 @@ This article walks through our end-to-end pipeline—dataset preparation, model 
 | ----------- | --------------------------------------------------------------------------------------------------------------- |
 | **Name**    | *Pneumothorax Detection in Chest X‑rays*                                                                        |
 | **Version** | v1.0                                                                                                            |
-| **Images**  | 5 519 total                                                                                                     |
-| **Split**   | 3 862 train / 1 105 val / 552 test                                                                              |
+| **Images**  | 5519 total                                                                                                     |
+| **Split**   | 3862 train / 1 105 val / 552 test                                                                              |
 | **Classes** | 2 (Cardiomegaly, Normal)                                                                                        |
 | **Format**  | PNG / JPG (single-channel greyscale)                                                                            |
 
