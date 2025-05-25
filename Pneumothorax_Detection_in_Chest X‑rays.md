@@ -1,6 +1,6 @@
 ---
 
-date: "2025-05-23"
+date: 2025-05-23
 title: "Pneumothorax Detection in Chest X-rays: Accelerating Critical Care with Computer Vision"
 description: "Discover how deep-learning models like MobileNetV2 and EfficientNet-B7 enable rapid, accurate pneumothorax detection from chest X-ray images, shortening the time to life-saving intervention."
 keywords: "pneumothorax detection, chest X-ray AI, medical imaging, computer vision, MobileNetV2, EfficientNet-B7, DenseNet, ResNet, healthcare AI, classification model, SIIM-ACR Pneumothorax, deep learning radiology, medical diagnostics, Matrice platform, edge inference, hospital automation, telemedicine"
@@ -8,6 +8,8 @@ keywords: "pneumothorax detection, chest X-ray AI, medical imaging, computer vis
 
 <meta title="Pneumothorax Detection in Chest X-rays: Accelerating Critical Care with Computer Vision"
    description="Discover how deep-learning models like MobileNetV2 and EfficientNet-B7 enable rapid, accurate pneumothorax detection from chest X-ray images, shortening the time to life-saving intervention."> <meta name="keywords" content="pneumothorax detection, chest X-ray AI, medical imaging, computer vision, MobileNetV2, EfficientNet-B7, DenseNet, ResNet, healthcare AI, classification model, SIIM-ACR Pneumothorax, deep learning radiology, medical diagnostics, Matrice platform, edge inference, hospital automation, telemedicine">
+title="Pneumothorax Detection in Chest X-rays: Accelerating Critical Care with Computer Vision"
+description="Discover how deep-learning models like MobileNetV2 and EfficientNet-B7 enable rapid, accurate pneumothorax detection from chest X-ray images, shortening the time to life-saving intervention."> <meta name="keywords" content="pneumothorax detection, chest X-ray AI, medical imaging, computer vision, MobileNetV2, EfficientNet-B7, DenseNet, ResNet, healthcare AI, classification model, SIIM-ACR Pneumothorax, deep learning radiology, medical diagnostics, Matrice platform, edge inference, hospital automation, telemedicine">
 
 # Pneumothorax Detection in Chest X-rays: Enabling Prompt Medical Intervention with AI
 
@@ -23,18 +25,18 @@ This article walks through our end-to-end pipeline—dataset preparation, model 
 
 * **Rapid triage:** Early detection prevents tension pneumothorax and respiratory failure.
 * **Radiologist workload:** AI pre-screening reduces fatigue and error rates in high-volume emergency departments.
-* **Resource-limited settings:** Automated tools bring specialist-level sensitivity to rural clinics and tele-medicine hubs.
+* **Resource-limited settings:** Automated tools bring specialist-level sensitivity to rural clinics and tele‑medicine hubs.
 
 ---
 
-## 2. Benefits of AI in Chest-X-ray Analysis
+## 2. Benefits of AI in Chest‑X‑ray Analysis
 
 | Benefit             | Impact                                                                  |
 | ------------------- | ----------------------------------------------------------------------- |
-| **Speed**           | Inference in < 1 s lets PACS systems auto-prioritize critical findings. |
+| **Speed**           | Inference in < 1 s lets PACS systems auto‑prioritize critical findings. |
 | **Consistency**     | Models deliver uniform sensitivity across shifts and sites.             |
 | **Scalability**     | Cloud or edge deployment scales to thousands of daily studies.          |
-| **Cost-Efficiency** | Early intervention shortens ICU stays, lowering overall care costs.     |
+| **Cost‑Efficiency** | Early intervention shortens ICU stays, lowering overall care costs.     |
 
 ---
 
@@ -50,42 +52,42 @@ This article walks through our end-to-end pipeline—dataset preparation, model 
 
 | Item        | Value                                                                                                           |
 | ----------- | --------------------------------------------------------------------------------------------------------------- |
-| **Name**    | *Pneumothorax Detection in Chest X-rays*                                                                        |
+| **Name**    | *Pneumothorax Detection in Chest X‑rays*                                                                        |
 | **Version** | v1.0                                                                                                            |
-| **Images**  | 5 519 total                                                                                                     |
-| **Split**   | 3 862 train / 1 105 val / 552 test                                                                              |
+| **Images**  | 5 519 total                                                                                                     |
+| **Split**   | 3 862 train / 1 105 val / 552 test                                                                              |
 | **Classes** | 2 (Pneumothorax, Normal)                                                                                        |
 | **Format**  | PNG / JPG (single-channel greyscale)                                                                            |
-| **Source**  | Derived from [SIIM-ACR Pneumothorax Segmentation](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation). |
+| **Source**  | Derived from [SIIM‑ACR Pneumothorax Segmentation](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation). |
 
-Images were histogram-equalized and resized to 512 × 512 px; class imbalance was mitigated via weighted loss during training.
+Images were histogram‑equalized and resized to 512 × 512 px; class imbalance was mitigated via weighted loss during training.
 
 ### Model Training
 
-We benchmarked five architectures and converged on **MobileNetV2** for its accuracy–size trade-off.
+We benchmarked five architectures and converged on **MobileNetV2** for its accuracy–size trade‑off.
 
-| Hyper-parameter | Value                                      |
+| Hyper‑parameter | Value                                      |
 | --------------- | ------------------------------------------ |
 | Epochs          | 70                                         |
 | Batch size      | 8                                          |
-| Optimizer       | AdamW (momentum 0.95, weight decay 0.0001) |
+| Optimizer       | AdamW (momentum 0.95, weight decay 0.0001) |
 | LR schedule     | StepLR, 0.001 → 0.0001 every 10 epochs     |
-| Loss            | Weighted BCE + focal γ = 2.0               |
+| Loss            | Weighted BCE + focal γ = 2.0               |
 | Primary metric  | **Precision**                              |
 
 ---
 
 ## 4. Model Evaluation
 
-| Model           | Params (M) | Test Precision | Test Recall | AUC      | Notes                  |
+| Model           | Params (M) | Test Precision | Test Recall | AUC      | Notes                  |
 | --------------- | ---------- | -------------- | ----------- | -------- | ---------------------- |
 | **MobileNetV2** | 3.5        | **0.79**       | 0.74        | 0.96     | Selected ✓             |
-| EfficientNet-B7 | 66         | 0.77           | **0.80**    | **0.97** | Highest AUC / Acc 92 % |
-| DenseNet-121    | 8          | 0.59           | 0.65        | 0.93     |                        |
-| ResNet-50       | 23.9       | 0.51           | 0.68        | 0.91     |                        |
-| VGG-16          | 134        | 0.48           | 0.60        | 0.88     | slower, over-fits      |
+| EfficientNet‑B7 | 66         | 0.77           | **0.80**    | **0.97** | Highest AUC / Acc 92 % |
+| DenseNet‑121    | 8          | 0.59           | 0.65        | 0.93     |                        |
+| ResNet‑50       | 23.9       | 0.51           | 0.68        | 0.91     |                        |
+| VGG‑16          | 134        | 0.48           | 0.60        | 0.88     | slower, over‑fits      |
 
-MobileNetV2 offers high precision with only 3.5 M parameters, making it ideal for edge deployment.
+MobileNetV2 offers high precision with only 3.5 M parameters, making it ideal for edge deployment.
 
 ![TrainingCurve](images/PneumoTrainCurve.png)
 
@@ -96,36 +98,36 @@ MobileNetV2 offers high precision with only 3.5 M parameters, making it ideal fo
 The best weights (`mobilenet_v2_best.pt`) export seamlessly:
 
 ```bash
-# ONNX for cross-framework use
+# ONNX for cross‑framework use
 ultralytics export model=mobilenet_v2_best.pt format=onnx
 
 # TensorRT for edge GPUs (Jetson Xavier NX)
 ultralytics export model=mobilenet_v2_best.pt format=tensorrt
 ```
 
-On an NVIDIA RTX A4500, inference clocks **94 images/s** (≈ 11 ms per scan).
+On an NVIDIA RTX A4500, inference clocks **94 images/s** (≈ 11 ms per scan).
 
 ---
 
 ## 6. Deployment
 
-* **API micro-service**: FastAPI container exposes `/predict` returning `{label, probability}`.
-* **PACS integration**: DICOM listener auto-routes urgent positives to the radiologist worklist.
-* **Edge mode**: TensorRT engine runs on portable X-ray carts in the ER.
+* **API micro‑service**: FastAPI container exposes `/predict` returning `{label, probability}`.
+* **PACS integration**: DICOM listener auto‑routes urgent positives to the radiologist worklist.
+* **Edge mode**: TensorRT engine runs on portable X‑ray carts in the ER.
 
 ---
 
-## 7. Real-World Impact
+## 7. Real‑World Impact
 
-* **Triage time cut** from 15 min to under 60 s at a partner hospital.
-* **False-negative rate dropped** by 27 % compared to overnight reads.
-* Model fits on **< 50 MB flash**, perfect for low-power devices.
+* **Triage time cut** from 15 min to under 60 s at a partner hospital.
+* **False‑negative rate dropped** by 27 % compared to overnight reads.
+* Model fits on **< 50 MB flash**, perfect for low‑power devices.
 
 ---
 
 ## Conclusion
 
-AI-assisted pneumothorax detection pairs **clinical urgency** with **computational efficiency**. By combining a balanced dataset with a compact MobileNetV2 classifier and export-ready tooling, we deliver actionable alerts directly to radiology workflows—saving time, resources, and ultimately lives.
+AI‑assisted pneumothorax detection pairs **clinical urgency** with **computational efficiency**. By combining a balanced dataset with a compact MobileNetV2 classifier and export‑ready tooling, we deliver actionable alerts directly to radiology workflows—saving time, resources, and ultimately lives.
 
 <!-- Footer CTA -->
 
@@ -133,11 +135,11 @@ AI-assisted pneumothorax detection pairs **clinical urgency** with **computation
   <div class="container p-2">
     <div class="row justify-content-center text-center">
       <div class="col-md-9 col-12">
-        <h2 class="my-0" style="color: #fff; font-size: 32px; font-weight: 600;">Think CV, Think Matrice</h2>
-        <p class="px-lg-8 py-2 my-0" style="color: #fff; font-size: 18px;">Deploy life-saving models 40 % faster while cutting development costs by 80 %</p>
+        <h2 class="my-0" style="color: #fff; font-size: 32px; font-weight: 600;">Think CV, Think Matrice</h2>
+        <p class="px-lg-8 py-2 my-0" style="color: #fff; font-size: 18px;">Deploy life‑saving models 40 % faster while cutting development costs by 80 %</p>
         <div class="d-grid d-md-block">
-          <a href="https://matrice.ai/#/demo" class="btn btn-primary mb-2 mb-md-0" style="padding: 12px 32px; font-size: 18px; font-weight: 600; border-radius: 30px; background-color: #17a2b8; border: none; color: #fff; margin-right: 10px;">Book a Demo</a>
-          <a href="https://app.matrice.ai/sign-up" class="btn" style="padding: 12px 32px; font-size: 18px; font-weight: 600; border-radius: 30px; border: 2px solid #fff; color: #fff;">Sign Up</a>
+          <a href="https://matrice.ai/#/demo" class="btn btn-primary mb-2 mb-md-0" style="padding: 12px 32px; font-size: 18px; font-weight: 600; border-radius: 30px; background-color: #17a2b8; border: none; color: #fff; margin-right: 10px;">Book a Demo</a>
+          <a href="https://app.matrice.ai/sign-up" class="btn" style="padding: 12px 32px; font-size: 18px; font-weight: 600; border-radius: 30px; border: 2px solid #fff; color: #fff;">Sign Up</a>
         </div>
       </div>
     </div>
