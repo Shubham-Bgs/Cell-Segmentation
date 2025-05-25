@@ -46,7 +46,7 @@ We adopted **YOLOv9‑Seg (small)** for its balance of accuracy and speed—espe
 | Learning rate  | 0.001                         | Fixed LR (cosine off)        |
 | Optimizer      | SGD + momentum 0.95           | `auto` in Ultralytics        |
 | Weight decay   | 0.0005                        |                              |
-| Primary metric | **Precision**                 | Best‑model selection         |
+| Primary metric | **Precision**                 |         |
 
 ---
 
@@ -59,7 +59,7 @@ We adopted **YOLOv9‑Seg (small)** for its balance of accuracy and speed—espe
 | mAP @ 50    | 0.48          | –              |
 | mAP @ 50‑95 | 0.20          | –              |
 
-<sub>*Add per‑class breakdown if needed.*</sub>
+
 
 ---
 
