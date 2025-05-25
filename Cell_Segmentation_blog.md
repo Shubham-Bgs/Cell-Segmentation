@@ -72,15 +72,7 @@ Below are raw inference frames with YOLOv9‑Seg masks overlaid on phase‑contr
 
 ---
 
-## 6. Inference Speed
-
-| Device (GPU)     | Images / sec | ms / image |
-| ---------------- | ------------ | ---------- |
-| RTX 3060 (12 GB) | *TBD*        | *TBD*      |
-
----
-
-## 7. Deployment Pipeline
+## 6. Deployment Pipeline
 
 1. **Export** best `.pt` weights → ONNX → TensorRT for real‑time edge inference.
 2. **Containerize** with a lightweight FastAPI service:
@@ -93,7 +85,7 @@ ultralytics export model=best.pt format=tensorrt
 
 ---
 
-## 8. Real‑World Impact
+## 7. Real‑World Impact
 
 * 5 × faster confluence checks in stem‑cell labs.
 * 80 % reduction in manual QC effort.
@@ -101,7 +93,7 @@ ultralytics export model=best.pt format=tensorrt
 
 ---
 
-## 9. Conclusion
+## 8. Conclusion
 
 Deep‑learning‑powered cell segmentation is **no longer a research luxury**—it’s a practical tool any lab can adopt. By combining an open dataset, a high‑performing YOLOv9‑Seg model, and an export‑ready pipeline, we deliver masks at speeds suitable for live‑cell imaging and high‑throughput screens.
 
