@@ -180,3 +180,28 @@ Automated assembly line monitoring powered by AI models like RT-DETR-X represent
 
 * **RT-DETR Original Paper:** [Baidu Research - RT-DETR](https://arxiv.org/abs/2304.08069) (Link to the foundational paper)
 * **Training Framework:** [Ultralytics - YOLO and RT-DETR Implementations](https://github.com/ultralytics/ultralytics)
+
+<!-- Footer CTA -->
+<div class="py-lg-16 py-10 rounded py-2"  style="background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);">
+  <div class="container p-2">
+    <!-- row -->
+    <div class="row justify-content-center text-center">
+      <div class="col-md-9 col-12">
+        <!-- heading -->
+        <h2 class="my-0" style="color: #fff; font-size: 32px; font-weight: 600;">Think CV, Think Matrice</h2>
+        <p class="px-lg-8 py-2 my-0" style="color: #fff; font-size: 18px;">Experience 40% faster deployment and slash development costs by 80%</p>
+        <!-- buttons -->
+        <div class="d-grid d-md-block">
+          <a href="https://matrice.ai/#/demo" class="btn btn-primary mb-2 mb-md-0" 
+            style="padding: 12px 32px; font-size: 18px; font-weight: 600; border-radius: 30px; background-color: #17a2b8; border: none; color: #fff; text-align: center; display: inline-block; text-decoration: none; transition: all 0.3s ease; margin-right: 10px;">
+            Book a Demo
+          </a>
+          <a href="https://app.matrice.ai/sign-up" class="btn" 
+            style="padding: 12px 32px; font-size: 18px; font-weight: 600; border-radius: 30px; border: 2px solid #fff; color: #fff; text-align: center; display: inline-block; text-decoration: none; transition: all 0.3s ease;">
+            Sign Up
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
