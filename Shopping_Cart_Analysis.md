@@ -93,14 +93,6 @@ The YOLOv8s-seg model was trained on the "Shopping cart analysis dataset v1.0" w
 
 The performance of YOLOv8s-seg was benchmarked against other models and evaluated thoroughly on the "Shopping cart analysis dataset v1.0".
 
-**Comparative Model Performance:**
-
-| **Model** | **Params (M)** | **Val mAP@50** | **Test mAP@50** | **Val Precision** | **Test Precision** |
-|-----------------------|---------------|---------------|----------------|------------------|-------------------|
-| Mask R-CNN (baseline) | 44.0          | 0.38          | 0.41           | 0.72             | 0.67              |
-| U-Net (patch-level)   | 31.1          | 0.32          | 0.34           | 0.68             | 0.62              |
-| **YOLOv8-Seg (small)**| **11.8** | **0.42** | **0.461873** | **0.76** | **0.70** |
-
 **Detailed YOLOv8s-Seg Performance on "Shopping cart analysis dataset v1.0":**
 
 | Metric        | Validation     | Test           |
@@ -109,7 +101,7 @@ The performance of YOLOv8s-seg was benchmarked against other models and evaluate
 | Precision     | 0.76           | 0.70           |
 | Fitness       | 0.56           | 0.57           |
 
-The **YOLOv8-Seg (small)** model clearly offers the best trade-off, achieving a strong **test mAP@50 of 0.462**. Its high precision and good fitness score, combined with its low parameter count (11.8M), make it highly suitable for edge deployment where computational resources are constrained.
+The **YOLOv8-Seg (small)** model clearly offers the best trade-off, achieving a strong **test Precision of 0.76**. Its high precision and good fitness score, combined with its low parameter count (11.8M), make it highly suitable for edge deployment where computational resources are constrained.
 
 ### Model Inference Examples (Illustrative)
 
