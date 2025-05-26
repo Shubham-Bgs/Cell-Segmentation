@@ -3,7 +3,7 @@
 <meta name="keywords" content="assembly line monitoring, computer vision, RT-DETR-X, manufacturing AI, industrial automation, quality control, anomaly detection, defect detection, smart factory, Industry 4.0, PyTorch, real-time monitoring, object detection, Baidu RT-DETR, production optimization, industrial IoT, metal plate detection, robot arm tracking">
 
 # Revolutionizing Manufacturing: AI-Powered Assembly Line Monitoring with RT-DETR-X
-May 27, 2025
+May 26, 2025
 
 Modern assembly lines are the backbone of mass production, operating at high speeds to deliver products that meet stringent quality standards. Traditional monitoring methods, often relying on manual inspection or basic sensors, can struggle to keep pace with the complexity and velocity of these operations, leading to potential defects, inefficiencies, and safety hazards. The integration of Artificial Intelligence (AI) and advanced computer vision technologies is now paving the way for a new era of automated assembly line monitoring, offering unprecedented precision and proactivity.
 
