@@ -4,7 +4,7 @@ description="Learn how AI-driven instance segmentation, featuring YOLOv9-Seg, ac
 
 # Cell Segmentation in Microscopy Images: Accelerating Biomedical Insights with YOLOv9-Seg
 
-*May 28, 2025*
+*May 26, 2025*
 
 > *"From painstaking manual annotation to real-time, pixel-perfect masks—AI is reshaping the microscope."*
 
