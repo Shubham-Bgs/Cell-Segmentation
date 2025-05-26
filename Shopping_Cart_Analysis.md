@@ -4,7 +4,7 @@
 
 # Automated Shopping-Cart Analysis with AI
 *Turning every cart into a data point for friction-free retail*
-*Date: May 29, 2025*
+*Date: May 26, 2025*
 
 Long lines at the point-of-sale frustrate shoppers and strain staff. In the fast-paced retail environment, efficiency and customer experience are paramount. With modern AI-driven computer vision, specifically instance segmentation, retailers can now **identify every item inside a shopping cart the moment it reaches the till**. This capability not only promises lightning-fast self-checkout but also unlocks a treasure trove of behavioral data, revolutionizing retail operations.
 
