@@ -4,7 +4,7 @@
 
 # Pneumothorax Detection in Chest X-rays: Accelerating Critical Care with Computer Vision
 
-*May 30, 2025*
+*May 26, 2025*
 
 > *"From subtle radiographic clues to instant AI triage—deep learning is transforming emergency diagnostics."*
 
